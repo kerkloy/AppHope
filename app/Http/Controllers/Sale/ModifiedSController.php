@@ -74,6 +74,7 @@ public function store(Request $request){
         
             if($updated){
                 return response()->json(['success' => 'Sale created successfully']);
+                // redirect('/sale');
             } else {
                 // Rollback sale if updating product quantity fails
                 $newSale->delete();

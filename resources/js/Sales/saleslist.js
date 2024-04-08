@@ -81,3 +81,4 @@ function printReceipt(data) {
 });
 
 
+

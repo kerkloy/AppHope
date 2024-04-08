@@ -8,7 +8,10 @@
          <div class="card">
             <div class="card-header d-flex justify-content-between">
                <div class="header-title">
-                  
+                  <!-- <h6>Start Date:</h6>
+                  <input type="date" id="min" name="min">
+                  <h6>End Date:</h6>
+                  <input type="date" id="max" name="max"> -->
                </div>
             </div>
             <div class="card-body">
@@ -64,33 +67,6 @@
       </div>
    </div>
 </div>
-
-<!-- <div class="reportRow">
-    <table>
-        <tr>
-            <th>TransNo</th>
-            <th>Product Name</th>
-            <th>Brand</th>
-            <th>Type</th>
-            <th>Price</th>
-            <th>Quantity Sold</th>
-            <th>Total Sales</th>
-            <th>Customer Name</th>
-            <th>Date Sold</th>
-        </tr>
-        <tr>
-            <td id="transNo"></td>
-            <td id="pname"></td>
-            <td id="pbrand"></td>
-            <td id="ptype"></td>
-            <td id="pprice"></td>
-            <td id="psold"></td>
-            <td id="psales"></td>
-            <td id="cname"></td>
-            <td id="sdate"></td>
-        </tr>
-    </table>
-</div> -->
 
 
 @endsection

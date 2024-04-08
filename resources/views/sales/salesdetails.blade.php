@@ -35,7 +35,7 @@
                         </div>
                         <div class="input-group mb-3">
                             <label for="prodSPrice" class="input-group-text">Product Price:</label>
-                            <input type="text"  step="0.01" id="prodSPrice" class="form-control sPrice" value="{{$response->prodSPrice}}" name="prodSPrice">
+                            <input type="text"  step="0.01" id="prodSPrice" class="form-control sPrice" value="{{$response->prodSPrice}}" name="prodSPrice" readonly>
                         </div>
                         <div class="input-group mb-3">
                             
@@ -54,7 +54,7 @@
                         </div>
                         <div class="input-group mb-3">
                             <label for="totalSales" class="input-group-text">Total Price:</label>
-                            <input type="text"  id="totalSales" class="form-control tPrice" name="totalSales">
+                            <input type="text"  id="totalSales" class="form-control tPrice" name="totalSales" readonly>
                         </div>
                         <div class="input-group mb-3">
                             <label for="soldDate" class="input-group-text">Sold Date:</label>
